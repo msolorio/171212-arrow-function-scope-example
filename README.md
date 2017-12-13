@@ -1,13 +1,13 @@
-arrow functions are function scoped
-their `this` keyword refers to the `this` of the their parent function
+arrow functions are function scoped.
+<br/>their `this` keyword refers to the `this` of the their parent function.
 
-function keyword functions are object scoped
+function keyword functions are object scoped.
 
-sayHi's context is the same as it's parent function
-`this` refers to `this` of the parent function, the global object
+sayHi's context is the same as it's parent function.
+<br/>`this` refers to `this` of the parent function, the global object.
 
-sayHiForReal's context is the parent object
-`this` refers to person
+sayHiForReal's context is the parent object.
+<br/>`this` refers to person.
 
 ```
 function getPerson() {
